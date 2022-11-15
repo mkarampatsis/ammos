@@ -1,0 +1,98 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
+title: AMOSS
+# Description of the Site
+description: Additively Manufactured Optimized 3D Printed Steel Structures
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+# heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: /assets/images/background_image.png
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: thedevslot@gmail.com
+facebook_username: thedevslot
+twitter_username: thedevslot
+instagram_username: thedevslot
+linkedin_username: thedevslot
+github_username:  thedevslot
+youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+reddit_username: /
+behance_username: /
+dribbble_username: /
+spotify_username: /
+
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# Disqus
+disqus-shortname: thedevslot
+
+# Name of the Author
+author-name: TheDevsLot
+# URL for the Image of the Author  assets/images/about_image2.png
+author-image: assets/images/about_image4.png
+# 60 Words About the Author
+author-about: Additive Manufacturing (AM) technologies have attracted the interest of industry due to their potential for flexible and automated production of complex geometry objects, in combination with minimizing the time required to develop new products. According to recent analysis, the overall market for AM products (metals and polymers) is projected to grow by almost 20% annually. Although AM technologies are a structural part of digitized industrial production and therefore the 4th industrial revolution, construction industry remains particularly hesitant to adopt such technologies. In addition, the vision of the European Union is to make Europe the first climate-neutral continent by 2050. This translates into zero net emissions and an overall reshaping of industrial activities so that they are dependent, not on the use, but on the reuse of raw materials. The recent Green New Deal for Europe sets as a primary objective the reform of heavy industry, including construction industry, which accounts for 40% of the energy consumed on the continent. The main tools for achieving this objective are to minimize both materials used during the production phase and the amount of industrial waste. Objective of the proposed research project is to develop a comprehensive methodology for designing optimized steel structures that will take advantage of ongoing progress in AM and 3D printing technologies in conjunction with recycled powder feedstock. To that effect, two scientific fields will be appropriately combined, namely topology optimization and steel structures structural design using advanced nonlinear finite element analyses. In order to enable manufacturing of complex, optimized forms that cannot be achieved by conventional fabrication techniques, AM equipment for steel objects that is already available at NTUA will be used, along with the one that is planned to be installed in the near future. Experimental validation via structural testing of optimized 3D printed steel specimens is foreseen. 
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/thedevslot
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

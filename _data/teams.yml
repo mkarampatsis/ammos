@@ -1,0 +1,59 @@
+- member: NIKOS LAGAROS
+  specialization: 
+  category: (PI)
+  count: 1
+  link: http://users.ntua.gr/nlagaros/
+  image: /assets/images/team/chara.png
+  description: Text
+- member: CHARIS GANTES
+  specialization: CIVIL ENGINEER 
+  category: Faculty Member
+  count: 2
+  link:
+  image: /assets/images/team/nkalioras.png
+  description: Text
+- member: THANASIS STAMOS
+  specialization: CIVIL ENGINEER 
+  category: Other
+  count: 3
+  link:
+  image: /assets/images/team/george.png
+  description: Text
+- member: XENOFON LIGNOS
+  specialization: CIVIL ENGINEER
+  category: Other
+  count: 4
+  link:
+  image: /assets/images/team/stefanos.png
+  description: Text
+# - member: GEORGE KAZAKIS
+#   specialization: CIVIL ENGINEER
+#   category: PhD Candidate
+#   count: 5
+#   link:
+#   image: /assets/images/team/stefanos.png
+#   description: Text
+# - member: STELIOS VERNARDOS
+#   specialization: CIVIL ENGINEER
+#   category: PhD Candidate
+#   count: 6
+#   link:
+#   image: /assets/images/team/stefanos.png
+#   description: Text
+# - member: KONSTANTINA KOULATSOU
+#   specialization: CIVIL ENGINEER
+#   category: PhD Candidate
+#   count: 7
+#   link:
+#   image: /assets/images/team/stefanos.png
+#   description: Text
+# - member: AIKATERINI NTAIFOTI
+#   specialization: CIVIL ENGINEER
+#   category: PhD Candidate
+#   count: 8
+#   link:
+#   image: /assets/images/team/stefanos.png
+#   description: Text  
+
+
+  

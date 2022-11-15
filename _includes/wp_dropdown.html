@@ -1,0 +1,35 @@
+<div class="navbar-item has-dropdown is-hoverable">
+    <a class="navbar-link">
+        Work Packages
+    </a>
+    <div class="navbar-dropdown has-background-black is-left">
+        {% for sitepage in site.html_pages %}
+        {% unless   sitepage.url == '/' or 
+                    sitepage.url == '/404' or 
+                    sitepage.url == '/blog' or 
+                    sitepage.url == '/publications' or 
+                    sitepage.url == '/software_components' or 
+                    sitepage.url == '/d11_website' or
+                    sitepage.url == '/d12_progress_reports' or
+                    sitepage.url == '/d21_software_prototype' or
+                    sitepage.url == '/d22_publication_to_scientific_journals' or
+                    sitepage.url == '/d31_publication_to_scientific_journals' or
+                    sitepage.url == '/d41_publication_to_scientific_journals' or
+                    sitepage.url == '/d51_publication_to_conference' or
+                    sitepage.url == '/d61_publication_to_scientific_journals' or
+                    sitepage.url == '/d71_report_for_verification_and_validation_results' or
+                    sitepage.url == '/d72_participation_to_conferences_exhibitions_summits_and_showcases' or
+                    sitepage.url == '/d73_publication_to_open_access_scientific_journal'
+        %}
+        <a href="{{sitepage.url | absolute_url}}.html"
+            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
+            {{sitepage.title}}
+        </a>
+        {% endunless %}
+        {% endfor %}
+        <!-- <hr class="navbar-divider">
+    <a class="navbar-item">
+      Report an issue
+    </a> -->
+    </div>
+</div>
